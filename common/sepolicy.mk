@@ -17,7 +17,8 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
 
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/pixeldust/sepolicy/common/dynamic
+    device/pixeldust/sepolicy/common/dynamic \
+    device/pixeldust/sepolicy/common/system-only
 else
 BOARD_SEPOLICY_DIRS += \
     device/pixeldust/sepolicy/common/dynamic \
