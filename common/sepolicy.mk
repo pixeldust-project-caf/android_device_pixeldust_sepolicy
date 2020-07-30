@@ -25,5 +25,7 @@ BOARD_SEPOLICY_DIRS += \
     device/pixeldust/sepolicy/common/vendor
 endif
 
+ifeq ($(TARGET_USES_LEGACY_SEPOLICY), true)
 # Selectively include legacy rules defined by the products
 -include device/pixeldust/sepolicy/legacy-common/sepolicy.mk
+endif
