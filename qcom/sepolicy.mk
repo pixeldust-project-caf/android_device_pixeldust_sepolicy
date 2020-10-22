@@ -14,7 +14,7 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/pixeldust/sepolicy/qcom/dynamic \
     device/pixeldust/sepolicy/qcom/system-only
 else
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/pixeldust/sepolicy/qcom/vendor
 endif
 
