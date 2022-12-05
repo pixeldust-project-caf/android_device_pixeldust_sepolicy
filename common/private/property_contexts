@@ -4,3 +4,7 @@ vendor.camera.aux.packagelist          u:object_r:exported_system_prop:s0
 
 # Radio
 ro.telephony.use_old_mnc_mcc_format    u:object_r:telephony_config_prop:s0
+
+# PixelDust
+ro.pixeldust.device                    u:object_r:build_prop:s0
+ro.pixeldust.maintainer                u:object_r:build_prop:s0
